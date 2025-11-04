@@ -9,7 +9,7 @@ def draw_python():
     t.pendown()
     t.seth(-40)
     t.pensize(25)
-    t.pencolor("red")
+    t.pencolor("green") #将颜色变化为绿色
     for i in range(4):
         t.circle(40, 80)
         t.circle(-40, 80)
@@ -33,7 +33,7 @@ def draw_flower():
     # 开始画
     speed(5)  # 画笔移动速度为5秒
     begin_fill()  # 开始填充
-    fillcolor('yellow')  # 为红色
+    fillcolor('yellow')  # 将颜色变化为黄色
     circle(50, 30)  # 画一个半径为50，弧度为30的圆
 
     for i in range(10):
